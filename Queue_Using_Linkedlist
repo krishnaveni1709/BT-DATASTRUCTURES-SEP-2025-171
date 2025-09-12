@@ -1,0 +1,54 @@
+lass Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+
+class Queue:
+    def __init__(self):
+        self.front_node = self.rear_node = None
+
+    def enqueue(self, data):
+        new_node = Node(data)
+        if self.rear_node is None:  # Queue is empty
+            self.front_node = self.rear_node = new_node
+        else:
+            self.rear_node.next = new_node
+            self.rear_node = new_node
+
+    def dequeue(self):
+        if self.is_empty():
+            print("Queue Underflow! Cannot dequeue from an empty queue.")
+            return None
+        dequeued_data = self.front_node.data
+        self.front_node = self.front_node.next
+        if self.front_node is None:
+            self.rear_node = None
+        return dequeued_data
+
+    def front(self):
+        if self.is_empty():
+            print("Queue is empty. No front element.")
+            return None
+        return self.front_node.data
+
+    def is_empty(self):
+        return self.front_node is None
+
+    def display(self):
+        if self.is_empty():
+            print("Queue is empty.")
+            return
+        current = self.front_node
+        while current:
+            print(current.data, end=" -> ")
+            current = current.next
+        print("None")
+queue = Queue()
+queue.enqueue(10)
+queue.enqueue(20)
+queue.enqueue(30)
+queue.display()
+print("Dequeued:", queue.dequeue())
+print("Front element:", queue.front())
+queue.display()
+print("is empty:", queue.is_empty())
