@@ -28,13 +28,13 @@ isEmpty() – Check if stack is empty
 
 display() – Show elements
 
-✅ Queue
+Queue
 
 Files in Repo:
 
-Queue_using_array.py → Queue using circular array
+Queue_Using_Arrays.py → Queue using circular array
 
-Queue_using_LL.py → Queue using linked list
+Queue_using_LinkedList.py → Queue using linked list
 
 Operations Implemented:
 
@@ -48,9 +48,9 @@ isEmpty() – Check if queue is empty
 
 display() – Show elements
 
-📌 Task 2: Binary Search Tree (BST)
+ 2: Binary Search Tree (BST)
 
-File in Repo:Binary_search_tree.py
+File in Repo:Binary Search Tree.py
 
 Features Implemented:
 
@@ -62,47 +62,47 @@ Traversals: In-order, Pre-order, Post-order
 
 Bonus: Deletion of nodes
 
-📌 Task 3: Sorting and Searching
+Task 3: Sorting and Searching
 
-✅ Sorting
+Sorting
 
 Files in Repo:
 
-BubbleSort.py – Bubble Sort
+Bubble Sort.py – Bubble Sort
 
-MergeSort.py – Merge Sort
+Merge Sort.py – Merge Sort
 
 QuickSort.py – Quick Sort
 
-✅ Searching
+Searching
 
 Files in Repo:
 
-Linear_search.py – Linear Search
+Linear Search.py – Linear Search
 
-Binary_search.py – Binary Search (iterative + recursive inside one file)
+Binary Search.py – Binary Search (iterative + recursive inside one file)
 
-📌 How to Run
+How to Run
 
-✅ Clone the repository:
+Clone the repository:https://github.com/krishnaveni1709/BT-DATASTRUCTURES-SEP-2025-171
 
-git clone https://github.com/vaishnavi9542/DS-SEP-2025-144.git
+git clone 
 
-cd DS-SEP-2025-144
+cd DS-SEP-2025-171
 
-✅ Run any program file individually, for example:
+Run any program file individually, for example:
 
-python Stack_using_array.py
+python Stack_Using_array.py
 
-python queue_using_LL.py
+python queue_Using_LinkedList.py
 
 python bst.py
 
-python Bubble_sort.py
+python Bubble sort.py
 
-python Linear_search.py
+python Linear search.py
 
-📌 Example Outputs:
+Example Outputs:
 
 👉 Stack (Array Implementation):
 
